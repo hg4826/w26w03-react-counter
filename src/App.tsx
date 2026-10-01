@@ -14,7 +14,7 @@ function App() {
   )
 }
 
-function Counter({ count, onIncrement }) {
+function Counter({ count, onIncrement }: { count: number; onIncrement: () => void }) {
   return (
     <div>
       <h1>Counter: {count}</h1>
